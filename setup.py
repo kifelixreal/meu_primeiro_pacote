@@ -20,6 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'hello_no = meu_primeiro_pacote.hello_no:main'
         ],
     },
 )
